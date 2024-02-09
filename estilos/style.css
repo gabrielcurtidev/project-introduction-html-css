@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
 
 *{
-    
+
 }
 
 body{
@@ -24,6 +24,7 @@ article{
     max-width: 850px;
     margin: auto;
     padding-top: 50px;
+    padding: 8px;
 
 }
 
@@ -68,11 +69,13 @@ h1{
 .share-post, .links-title{
     font-size: 12px;
     font-weight: 600;
+    transform: ;
     line-height: 22px;
 }
 
 .links-title{
     margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .uppercase{
@@ -89,6 +92,8 @@ h1{
 
 article p{
     line-height: 24px;
+    text-align: justify;
+    text-indent: 20px;
 }
 
 #texto-artigo{
@@ -98,20 +103,23 @@ article p{
 
 iframe{
     margin: 30px 0px;
+    max-width: 100%;
 }
 
 footer{
-    background-color: #f1f1f1;
+    background-color: #f5f4f4;
     max-width: 680px;
     
     margin: auto;
     padding: 20px 15px;
+    margin-bottom: 70px;
 }
 
 footer ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 footer ul li{
