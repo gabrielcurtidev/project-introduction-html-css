@@ -20,15 +20,6 @@ header{
     padding: 25px 0;
 }
 
-#by-name{
-    color: black;
-    text-decoration: none;
-}
-
-#by-name:hover{
-    font-size: 12.5px;
-}
-
 article{
     max-width: 850px;
     margin: auto;
@@ -47,11 +38,31 @@ article{
    line-height: 18px;
 }
 
+#by-name{
+    color: black;
+    text-decoration: none;
+}
+
+#by-name:hover{
+    font-size: 12.2px;
+}
+
 h1{
     font-size: 52px;;
     line-height: 58px;
     letter-spacing: 1.3px;
+
     margin: 0;
+    margin-bottom: 10px;
+}
+
+.share-post span{
+    margin-right: 4px;
+    margin-top: 0;
+}
+
+.share-post img{
+    vertical-align: middle;
 }
 
 .share-post, .links-title{
@@ -74,6 +85,10 @@ h1{
 
 .hero-image img{
     max-width: 100%;
+}
+
+article p{
+    line-height: 24px;
 }
 
 #texto-artigo{
