@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+
+*{
+    
+}
+
+body{
+    background-color: #F7F7F9;
+    font-family: 'Nunito', sans-serif;
+}
+
+header{
+    background-color: #DB2270;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+
+    padding: 25px 0;
+}
+
+#by-name{
+    color: black;
+    text-decoration: none;
+}
+
+#by-name:hover{
+    font-size: 12.5px;
+}
+
+article{
+    max-width: 850px;
+    margin: auto;
+    padding-top: 50px;
+
+}
+
+#titulo-sessao{
+   margin-bottom: 50px; 
+}
+
+.autor-post{
+   color: #6c6c6c;
+   font-size: 12px;
+   font-weight: 100;
+   line-height: 18px;
+}
+
+h1{
+    font-size: 52px;;
+    line-height: 58px;
+    letter-spacing: 1.3px;
+    margin: 0;
+}
+
+.share-post, .links-title{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.links-title{
+    margin-bottom: 10px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.hero-image{
+    margin: 50px 0px;
+}
+
+.hero-image img{
+    max-width: 100%;
+}
+
+#texto-artigo{
+    max-width: 680px;
+    margin: auto;
+}
+
+iframe{
+    margin: 30px 0px;
+}
+
+footer{
+    background-color: #f1f1f1;
+    max-width: 680px;
+    
+    margin: auto;
+    padding: 20px 15px;
+}
+
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li{
+    margin-bottom: 10px;
+}
+
+footer ul li:last-of-type{
+    margin-bottom: 0;
+}
